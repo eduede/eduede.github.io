@@ -1,101 +1,136 @@
-<!DOCTYPE HTML>
-<!--
-	Story by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-  -->
-<html>
-	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-4483223-6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    		<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4483223-6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-  gtag('config', 'UA-4483223-6');
-</script>
-		<title>Eamon Duede: Home</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-        <!-- <link rel="shortcut icon" type="image/svg" href="images/favicon.svg"/> -->
-        <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-	</head>
-	<body class="is-preload">
+        gtag('config', 'UA-4483223-6');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eamon Duede</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 45%;
+            margin: 0 auto;
+            padding: 15px 20px;
+        }
+        h1, h2, h3 {
+            font-family: 'Merriweather', serif;
+            color: #333;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .profile img {
+            margin-right: 20px;
+            max-width: 100%;
+            height: auto;
+        }
+        .contact, .links, .publications {
+            margin-top: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        a, a:visited {
+            color: #0056b3; /* A darker shade of blue */
+            text-decoration: none; /* Removes the underline */
+            transition: color 0.2s ease-in-out; /* Smooth transition for hover effects */
+        }
+        a:hover, a:focus {
+            color: #003974; /* Even darker on hover */
+            text-decoration: underline; /* Underline appears on hover for clarity */
+        }
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="divided">
-
-				<!-- One -->
-					<section class="banner onload-image-fade-in onload-content-fade-right style3 orient-right content-align-left image-position-center">
-						<div class="content">
-							<h1></h1>
-
-                            <p class="major"><b>Eamon Duede</b> | Harvard University</a></p>
-							<style>
-								p {
-									text-align: justify;
-								}
-							</style>
-							<p>
-								I am an epistemologist of science focusing on two streams of research.
-								My theoretical work in the philosophy of science focuses on the epistemology of emerging technologies, principally artificial intelligence (AI).
-								My empirical work uses computational approaches falling under the broad heading of "Data Science" to investigate the roles that methods and institutions play in scientific discovery.
-								I also research and teach in the ethics of AI and other emerging technologies in science, business, and society.
-								<br><br>I am currently a Postdoctoral Fellow at <a style="color: #375BFA; text-decoration: none" href="https://d3.harvard.edu/">Harvard University</a>. I completed a joint PhD in 2023 at the University of Chicago in <a style="color: #375BFA; text-decoration: none " href="https://philosophy.uchicago.edu">philosophy</a> and
-								<a style="color: #375BFA; text-decoration: none" href="https://chss.uchicago.edu/">conceptual and historical studies of science</a> where I was also a Fellow in the <a style="color: #375BFA; text-decoration: none" href="https://pme.uchicago.edu/">
-									Pritzker School of Molecular Engineering
-								</a> AI-Enabled Molecular Engineering of Materials and Systems for Sustainability <a style="color: #375BFA; text-decoration: none" href="https://www.nrt.pme.uchicago.edu/">(AIMEMS)
-								</a> program. I have ongoing research affiliations with <a style="color: #375BFA; text-decoration: none" href="https://www.knowledgelab.org/">KnowledgeLab</a> and <a style="color: #375BFA; text-decoration: none" href="https://labs.globus.org/">Globus Labs</a>.
-								<br><center><b><u>Latest News</u></b></center>
-								&#9672 I joined the <a style="color: #375BFA; text-decoration: none" href="https://embeddedethics.seas.harvard.edu/">Embedded EthiCS</a> program at Harvard<br>
-								&#9672 I joined the <a style="color: #375BFA; text-decoration: none" href="https://d3.harvard.edu/">Digital, Data, and Design Institute</a> at Harvard<br>
-								&#9672 I was a visiting fellow at the Leverhulme Centre for the Future of Intelligence, <a style="color: #375BFA; text-decoration: none" href="http://lcfi.ac.uk/">University of Cambridge</a> in Spring 2023<br>
-								&#9672 I was named a <a style="color: #375BFA; text-decoration: none" href="https://datascience.uchicago.edu/rising-stars/#rising-stars-profiles-2">"Rising Star in Data Science"</a> by the University of Chicago Data Science Institute in the Autumn of 2022
-</p>
-
-							<ul class="actions fit">
-							  <!---<li><a href="publications.html" class="button big smooth-scroll-middle">Publications</a>--->
-											<a href="projects.html" class="button fit smooth-scroll-middle">Research</a>
-											<a href="teaching.html" class="button fit smooth-scroll-middle">Teaching</a>
-											<a href="eamon_cv.html" class="button fit smooth-scroll-middle">Current CV</a>
-
-											<!-- <a href="teaching.html" class="button big smooth-scroll-middle">Teaching</a> -->
-															</li>
-							</ul>
-						</div>
-						<div class="image">
-						  <!-- <img src="images/banner.jpg" alt="" /> -->
- 							<img src="images/eamon_b.jpg" alt="" />
-                        <!--  <img src="images/eamon.jpg" alt="" /> -->
-						</div>
-					</section>
-
-				<!-- Footer -->
-					<footer class="wrapper style1 align-center">
-						<div class="inner">
-							<ul class="icons">
-							    <li><a href="https://www.linkedin.com/in/eduede" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-                                
-							    <li><a href="mailto:eduede@g.harvard.edu" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-							<p>&copy; Eamon Duede. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-						</div>
-					</footer>
-
-			</div>
-
-<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+        /* Media Queries for Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 10px;
+            }
+            .profile {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .profile img {
+                margin-bottom: 15px;
+                margin-right: 0;
+            }
+            .about p {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Eamon Duede</h1>
+        <div class="profile">
+            <img src="eamon_new_bw.jpg" alt="Profile Picture" width="217">
+            <div>
+                <h2>Assistant Professor</h2>
+                <p>Purdue University<br>
+                <a href="https://www.cla.purdue.edu/academic/philosophy/" target="_blank">Department of Philosophy</a></p>
+                <p>Argonne National Laboratory<br>
+                <a href="https://www.anl.gov/dsl" target="_blank">Data Science and Learning Division</a></p>
+                <p><a href="Eamon_purdue_CV.pdf" target="_blank">[CV]</a>, <a href="https://scholar.google.com/citations?user=xjLKbBcAAAAJ&hl=en" target="_blank">[Scholar]</a></p>
+            </div>
+        </div>
+        <div class="about">
+            <h3></h3>
+            <p style="text-align: justify;">I am an epistemologist of science focusing on three streams of research.
+                My theoretical work in the philosophy of science focuses on the epistemology of emerging technologies, principally artificial intelligence (AI).
+                My empirical work investigates and evaluates roles and capabilities of AI in enhancing the 
+                effectiveness and scalability of innovative, data-driven, and algorithm-assisted operational frameworks for scientific discovery. I am also concerned with the dynamics of 
+                discovery across disciplines, geographic space, and time. Here, I use the computational techniques of ‘data science’ to study the flow of knowledge and 
+                influence between communities of experts and other audiences, and study how these can be catalyzed or stymied by institutional and technological factors.<br><br>
+                Before joining Purdue, I was a Postdoctoral Fellow at Harvard University, affiliated with the Digital Data Design Institute at Harvard Business School 
+                and the Embedded EthiCS program in the Philosophy and Computer Science departments. I earned a joint Ph.D. in Philosophy and Conceptual and Historical 
+                Studies of Science from the University of Chicago, where I was also an NSF-funded Fellow at the Pritzker School of Molecular Engineering.
+            </p>
+        </div>
+        <div class="publications">
+            <h3>Publications</h3>
+            <ul>
+                <li>My publications (with links) are <a href="Eamon_purdue_CV.pdf" target="_blank">available in my CV</a>.</li> 
+                <li>In addition to publications,  <a href="https://scholar.google.com/citations?user=xjLKbBcAAAAJ&hl=en" target="_blank">Google Scholar</a> lists and provides links to all of my pre-prints.</li>
+            </ul>
+        </div>
+        <div class="publications">
+            <h3>Selected Upcoming and Recent Presentations</h3>
+            <ul>
+                <li>"Confabulation: The Surprising Value of Large Language Model Hallucinations." at the Association for Computational Linguistics (ACL) 2024, Bangkok, Thailand.</li>
+                <br>
+                <li>"Novel (Social)Epistemological Considerations for Mixed-Agent Science" at the Philosophy of Science Association 29th Biannual Meeting (PSA) 2024, New Orleans, USA.</li>
+                <br>
+                <li>"Apriori Knowledge in an Era of Computational Opacity: The Role of AI in Mathematical Discovery." Presented by Kevin Davey at the Philosophy of Science Association 29th Biannual Meeting (PSA) 2024, New Orleans, USA.</li>
+                <br>
+                <li>"Can an LLM be a Scientist?" Presented by Tom Pashby at the Philosophy of Science Association 29th Biannual Meeting (PSA) 2024, New Orleans, USA.</li>
+                <br>
+                <li>"Novel Epistemological Predicaments for AI-Infused Science." at mrc2024: Models, Representation, and Computation, 2024, Paris, France.</li>
+                <br>
+                <li>"Novel Epistemological Considerations for AI-Infused Science." at IACAP2024: International Association for Computing and Philosophy, 2024, Eugene, USA.</li>
+                <br>
+                <li>"Oil & Water? Diffusion of AI Within and Across Scientific Fields." at ICSSI: International Conference on Science of Science, 2024, Washington DC, USA.</li>
+            </ul>
+        </div>
+    </div>
+</body>
 </html>
