@@ -16,12 +16,13 @@
     <style>
         body {
             font-family: 'Open Sans', sans-serif;
-            color: #333;
+            color: #1a1a1a;
             margin: 0;
             padding: 0;
+            
         }
         .container {
-            width: 45%;
+            width: 38%;
             margin: 0 auto;
             padding: 15px 20px;
         }
@@ -39,6 +40,8 @@
             margin-right: 20px;
             max-width: 100%;
             height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
         .contact, .links, .publications {
             margin-top: 20px;
@@ -56,8 +59,21 @@
             transition: color 0.2s ease-in-out; /* Smooth transition for hover effects */
         }
         a:hover, a:focus {
-            color: #003974; /* Even darker on hover */
-            text-decoration: underline; /* Underline appears on hover for clarity */
+            color: #007acc; /* Even darker on hover */
+            text-decoration: underline dotted; /* Underline appears on hover for clarity */
+        }
+        a[href$="CV.pdf"]:hover {
+            background-color: #f0f0f0;
+            border-radius: 4px;
+            padding: 2px 4px;
+            transition: background-color 0.2s ease;
+        }
+
+        a[href$="https://scholar.google.com/citations?user=xjLKbBcAAAAJ&hl=en"]:hover {
+            background-color: #f0f0f0;
+            border-radius: 4px;
+            padding: 2px 4px;
+            transition: background-color 0.2s ease;
         }
 
         /* Media Queries for Responsive Design */
@@ -86,15 +102,15 @@
         <div class="profile">
             <img src="eamon_new_bw.jpg" alt="Profile Picture" width="255">
             <div>
-                <p><h2>Assistant Professor</h2>
-                Purdue University<br>
+                <p><h2>Assistant Professor <span style="font-weight: normal; font-size: inherit;">| Purdue University</span></h2>
+                <!--Purdue University<br>--> 
                 <a href="https://www.cla.purdue.edu/academic/philosophy/" target="_blank">Department of Philosophy</a></p>
 
                 <p><b>Joint Appointment</b> | Argonne National Laboratory<br>
                 <a href="https://www.anl.gov/dsl" target="_blank">Data Science and Learning Division</a></p>
 
                 <p><b>Affiliated Faculty</b> | University of Chicago<br>
-                <a href="https://chss.uchicago.edu/" target="_blank">The Committee on the Conceptual and Historical Studies of Science</a><br>
+                <a href="https://chss.uchicago.edu/" target="_blank">Committee on the Conceptual and Historical Studies of Science</a><br>
                 <a href="https://knowledgelab.org/" target="_blank">Knowledge Lab</a><br></p>
 				
                 <p>Office: Steven C. Beering Hall, 6117<br>
